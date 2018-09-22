@@ -1,0 +1,184 @@
+/**
+    Basic Portfolio Layout for the Header / Body of each page
+**/
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #ffffff;
+    float: left;
+    margin-bottom: 30px;
+    width: 100%;
+    border-bottom: 1px solid #cccccc;
+}
+h1 {
+    float: left;
+    background: #4aaaa5;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    color: white;
+    padding: 20px 20px 20px 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-bottom: 1px solid darkgrey;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    position:relative;
+    
+}
+a:hover {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #FF407E;
+}
+
+div {
+    position: relative;
+    float: right;
+    right: -1px;
+    top: 20px;
+    color: #777777;
+}
+#Contact {
+    float: right;
+    margin-right: 200px;
+    padding: 20px;
+}
+
+#portfolio {
+    float: right;
+    padding: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#aboutme {
+    float: right;
+    padding: 20px;
+}
+
+main {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 960px;
+    background: white;
+    margin: auto;
+    border: 1px solid #dddddd; 
+    overflow: auto;
+    padding: 30px;
+}
+
+h2 {
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    color: #4aaaa5;
+    font: Georgia;
+    margin: 10px;
+}
+hr {
+    margin: 10px;
+}
+
+/**
+ *This is the CSS for the About Page 
+ **/
+
+#headshot {
+    margin: 10px;
+    float: left;
+}
+
+p {
+    float: inherit;
+    line-height: 1.5;
+}
+
+/**
+ *This is the CSS for the Portfolio Page
+ **/
+
+ .PortfolioBox {
+     float: left;
+     margin: 20px 50px 20px 50px;
+     width: 150px;
+     position: relative;
+ }   
+
+
+.stripe {
+    float: left;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: #4aaaa5;
+    color: white;
+    padding: 20px;
+    position: absolute;
+    bottom: 20px;
+    top: 120px;
+    width: 160px;
+    height: 20px;
+    left: 0;
+    z-index: 1;
+    text-align: center;
+}
+
+/** 
+ *This is the CSS for the Contact page
+    **/
+
+.column{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    padding: 30;
+    line-height: 2.0;
+    margin: 15px;
+    width: 100%;
+}
+
+#fname {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 100%;
+    line-height: 1.5;
+}
+
+#email {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 100%;
+    line-height: 1.5;
+}
+
+#message {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 100%;
+    line-height: 1.5;
+}
+
+#submit {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background: #4aaaa5;
+    color: white;
+    border: 0;
+    padding: 10px 20px 10px 20px;
+    font-size: 10pt;
+    margin: 20;
+}
+
+#submit:hover {
+    color: #FF407E;
+}
+
+.footer {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #FFFFFF;
+    clear: both;
+    padding: 30px 20px 0px 20px;
+    text-align: center;
+    background: #666666;
+    position: fixed;
+    border-top: 5px solid #4aaaa5;
+    width: 100%;
+    bottom: 0;
+    height: 30px;
+  }
