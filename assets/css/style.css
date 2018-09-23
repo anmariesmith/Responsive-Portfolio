@@ -109,25 +109,25 @@ p {
 
  .PortfolioBox {
      float: left;
-     margin: 20px 50px 20px 50px;
-     width: 150px;
+     margin: 5%;
+     width: 200px;
      position: relative;
  }   
 
-
+.pbimg {
+    width: 100%;
+    position: relative;
+}
 .stripe {
     float: left;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     background: #4aaaa5;
     color: white;
-    padding: 20px;
+    padding: 15%;
     position: absolute;
-    bottom: 20px;
-    top: 120px;
-    width: 160px;
-    height: 20px;
-    left: 0;
-    z-index: 1;
+    bottom: 20%;
+    top: 55%;
+    width: 100%;
     text-align: center;
 }
 
@@ -211,5 +211,19 @@ p {
   
     #para {
         width: 100%;
+    }
+
+    .PortfolioBox {
+        width: 100%;
+        margin: 5%;
+    }
+
+    .pbimg {
+        width: 100%;
+    }
+
+    .stripe {
+        width: 100%;
+        background-color: #FF407E;
     }
 }
