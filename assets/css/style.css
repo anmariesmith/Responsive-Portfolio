@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 body {
     margin: 0;
     padding: 0;
@@ -31,8 +37,6 @@ h1 {
     margin-left: 5%;
     margin-right: 2%;
     border-bottom: 1px solid darkgrey;
-    position: absolute;
-    height: 100%;
 }
 
 a {
@@ -47,7 +51,7 @@ a:hover {
     color: #FF407E;
 }
 
-div {
+div.nav1 {
     float: right;
     right: -1px;
     top: 20px;
@@ -60,23 +64,23 @@ nav {
 
 #Contact {
     float: right;
-    padding: 20px;
+    padding: 15px 20px;
 }
 #portfolio {
     float: right;
-    padding: 20px;
+    padding: 15px 20px;
     margin-top: auto;
     margin-bottom: auto;
 }
 
 #aboutme {
     float: right;
-    padding: 20px;
+    padding: 15px 20px;
 }
 
 .NavLine {
     float: right;
-    padding-top: 20px;
+    padding-top: 5%;
 }
 
 main {
@@ -201,21 +205,31 @@ p {
     height: 30px;
     font-size: 12pt;
   }
-  
+   /*
+  These rules take effect when the browser's width
+  is either 908px or less.
+*/
   @media screen and (max-width: 980px) { 
     body {
         background-color: #333;
       }
   
     nav {
-        width: 100%;
+        float: right;
+        margin-top: 1%;
+    }
+    div.nav1 {
+        background-color: white;
+        margin: 0 auto;
+        float: right;
     }
     h1 {
         width: 20%;
         margin: 0px;
         margin-left: 10%;
         text-align: center;
-        font-size: 120%
+        font-size: 120%;
+        height:  100%;
     }
     main {
         width: 60%;
@@ -262,7 +276,6 @@ p {
     h1 {
         width: 30%;
         margin-left: 2%;
-        height: 100%;
     }
     main {
       width: 95%;
@@ -291,15 +304,31 @@ p {
     }
 
 }
-
+  /*
+  These rules take effect when the browser's width
+  is either 640px or less.
+*/
 @media screen and (max-width: 640px) {
     /* The body's bg color will be #333 */
     body {
       background-color: #333;
     }
-  
-    nav {
+
+    header {
         width: 100%;
+        position: relative;
+        height: 50%;
+    }
+    nav {
+        margin: 0 auto;
+        text-align: center;
+        float: none;
+    }
+    div.nav1 {
+        width: 100%;
+        background-color: white;
+        margin: 0 auto;
+        float: none;
     }
     h1 {
         width: 100%;
