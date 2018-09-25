@@ -280,6 +280,7 @@ p {
     main {
       width: 95%;
       margin: 2%;
+      margin-bottom: 20%;
     }
   
     #headshot {
@@ -312,6 +313,10 @@ p {
     /* The body's bg color will be #333 */
     body {
       background-color: #333;
+    }
+
+    main {
+        margin-bottom: 20%;
     }
 
     header {
